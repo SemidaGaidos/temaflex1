@@ -1,0 +1,75 @@
+body {
+  background-image: radial-gradient(rgb(235, 232, 93), #f5a6f5);
+   display: grid;
+        align-content: center;
+        justify-content: center;
+}
+.page-title{ display: flex;
+  flex-direction: column;
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+  font-family: "Noto Serif", serif;
+}
+nav.menu, .logo{  display: flex;
+  margin-block-end: 2rem;
+  flex-direction: row-reverse;
+  font-size: 1rem;
+  font-family:  Arial, sans-serif;
+  padding-right: 1em;
+}
+.despre-ghid{ 
+display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Noto Serif", serif;
+  }
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+  padding: 0.4em 2em;
+  border-radius: 30px;
+  box-shadow: 5px 0px black;
+  background-color: #eef5b0;
+  margin-left: 1rem;
+}
+.content-box{
+  width: 40rem;
+  height: 50rem;
+  padding: 40px;
+  background: rgba(252, 187, 248, 0.5);
+  margin: auto;
+  padding-block: 3em;
+  box-shadow: 5px 5px 10px rgb(233, 243, 139);
+}
+.logo img{
+   height: 15rem;
+   border-radius: 100%;
+   
+  }
+.btn {
+  background-color:  #eef5b0;
+  color: black;
+  padding: 0.7rem 1rem;
+  border-radius: 0.9rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
+}
+.pasi {
+  color: black;
+  border-block: 0.1vmin solid;
+  border-inline: 0.1vmin solid;
+  height: 15rem;
+  padding: 0.4em 3em;
+  font-family: "Noto Serif", serif;
+}
+@media (max-width: 586px) {
+  .content-box {
+    width: 20rem;
+    height:500px;
+     }
+     
